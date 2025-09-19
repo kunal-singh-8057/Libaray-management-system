@@ -1,0 +1,64 @@
+.formBox {
+  height: 100vh; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa; 
+}
+
+.issueForm {
+  padding: 2rem;
+  border: 1px solid #e5e7eb; 
+  border-radius: 0.75rem;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1e3a8a; 
+  font-weight: 600;
+}
+
+.issueForm div {
+  margin-block: 2rem;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #334155; 
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input {
+  width: 25vw;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #94a3b8; 
+}
+
+.btnBox {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.linkBtn{
+  font-size: 1.1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #3b82f6; 
+  color: #ffffff; 
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  text-decoration: none;;
+}
+.linkBtn:hover {
+  background-color: #1d4ed8;
+}
+

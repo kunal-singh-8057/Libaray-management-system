@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f6ff; /* very light bluish background */
+}
+
+.submissionCard {
+  background-color: #e6f0ff; /* light bluish card */
+  border: 1px solid #b3d1ff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.heading {
+  font-size: 2rem;
+  color: #003366; /* dark blue */
+  margin-bottom: 1rem;
+}
+
+.submissionText {
+  font-size: 1.25rem;
+  color: #003366;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.userId {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #0055aa;
+}
+
+.linkBtn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #cce5ff;
+  color: #003366;
+  border: 1px solid #99c2ff;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.linkBtn:hover {
+  background-color: #b3d1ff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.noData {
+  text-align: center;
+  margin-top: 3rem;
+  color: #003366;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,135 @@
+.bookStore {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #f9fafb; /* softer background */
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.header {
+  min-height: 15vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(90deg, #3b82f6, #1d4ed8); /* nicer gradient */
+  padding-inline: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.heading {
+  font-size: 2.5rem;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+}
+
+.inputBox {
+  width: 20vw;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem ;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchBtn {
+  font-size: 1rem;
+  padding: 0.55rem 1.4rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem ;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.searchBtn:hover {
+  background-color: #0c2e8d;
+}
+
+.bookCards {
+  width: 100%;
+  margin-top: 15vh;
+  padding-block: 3rem;
+  padding-inline: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* responsive grid */
+  gap: 3rem;
+}
+
+.bookCard {
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 4px rgba(9, 9, 9, 0.05);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.bookCard:hover {
+  box-shadow: 0 4px 14px rgba(221, 38, 38, 0.1);
+}
+
+.bookInfo {
+    margin-block: 0.4rem;
+}
+.bookInfo b{
+    font-size: 1.1rem;
+    color: black;
+}
+.bookInfo p{
+    font-size: 1rem;
+    color: #374151;
+}
+.issueBook {
+  text-align: end;
+  position: fixed;
+  right: 2rem;
+  bottom: 6rem;
+  font-size: 1.25rem;
+}
+
+.issueBook a {
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.75rem 1.95rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.issueBook a:hover {
+  background-color: #1d4ed8;
+}
+
+.returnBtn {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 1rem;
+  padding: 0.6rem 1.4rem;
+  background-color: #ef4444; /* red */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s;
+}
+.returnBtn:hover {
+  background-color: #dc2626;
+}
+.returnBtn a{
+  color: whitesmoke;
+  text-decoration: none;;
+}
