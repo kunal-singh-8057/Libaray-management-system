@@ -1,4 +1,4 @@
-import styles from "./issueForm.module.css";
+import styles from "./IssueForm.module.css";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link} from "react-router-dom";
